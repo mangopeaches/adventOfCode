@@ -1,9 +1,5 @@
 <?php
 
-$lines = explode(PHP_EOL, file_get_contents(__DIR__ . "/input.txt"));
-
-$index = 0;
-
 function getLines(string $filePath): array {
     return explode(PHP_EOL, file_get_contents($filePath));
 }
